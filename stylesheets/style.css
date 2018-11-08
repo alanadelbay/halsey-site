@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+#container {
+  background-color: Black;
+}
+
+body {
+  color: White;
+  background-color: Black;
+}
+
+#masthead {
+  height: 60px;
+  margin-bottom: 35px;
+}
+
+a:link {
+	text-decoration: underline;
+	color: lightpink
+}
+
+.halseylogo {
+	float: left;
+}
+
+.navlist {
+	float: right;
+	position: relative;
+}
+
+.navlist ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+.navlist li {
+  float: left;
+}
+
+.navlist li a {
+    display: block;
+    color: #cce6ff;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navlist li a:hover {
+    background-color: "#262626";
+}
+
+#main {
+  float: left;
+  width: 65%;
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+#main p {
+  color: white;
+}
+
+#related {
+  margin-left: 70%;
+  padding: 15px;
+}
+
+.sidebar {
+  padding: 5px;
+}
+
+#footer p {
+  color: white;
+  padding: 5px;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-left: 0%;
+}
